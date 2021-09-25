@@ -1,0 +1,48 @@
+@media only screen and (max-width: 568px){
+	#logo img{
+		width: 200px;
+	}
+	#headerSlider h1 {
+    font-size: 35px;
+	}
+	
+/*----------------------- live page ------------------------------	*/
+	#introp{
+		text-align: justify;
+	}
+}
+
+@media screen and (max-width: 360px){
+/*-------------------- time schedule -----------------------------	*/
+	.selection li{
+		display: block;
+		margin: 8px 0;
+	}
+	.table-modern{
+		display: block !important;
+	}
+	#introp{
+		text-align: justify;
+	}
+	.card-img-top {
+    height: auto;
+	min-height: 300px;
+	}
+	
+	#imageslider {
+		height: auto;
+		overflow: hidden;
+	}
+	#imageslider h3{
+		font-size: 15px !important;
+		background: rgba(0,0,0,0.65);
+		padding: 10px;
+		visibility: hidden;
+	}
+	#imageslider:hover #imageslider > h3{
+		visibility: visible;
+	}
+	.carousel-caption{
+		background: transparent;
+	}
+}

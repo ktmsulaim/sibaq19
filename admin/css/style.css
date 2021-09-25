@@ -1,0 +1,110 @@
+a, a:hover{
+	text-decoration: none !important;
+}
+html,body{
+	overflow-x: hidden;
+}
+ul#navbar li a{
+	color: #aaa !important;
+}
+ul#navbar li.active a, ul#navbar li a:hover{
+	color: #fff !important;
+}
+article.article{
+	padding: 20px 0;
+}
+.panel-head{
+	padding: 5px 10px;
+	background-color: #777;
+	color: #fff;
+}
+#latest-post a{
+	color: #000;
+}
+#latest-post a.active{
+	color: #fff;
+}
+#latest-post h4{
+	font-size: 100%;
+	font-weight: 600; 
+}
+#latest-post p{
+	font-size: 88%;
+}
+.post i, #post i{
+	padding: 0 5px;
+}
+.post a, #post a{
+	color: #000;
+}
+.post a:hover, #post a:hover{
+	color: #999;
+}
+span.c-white{
+	color: #fff !important;
+}
+.c-white{
+	color: #fff !important;
+}
+.post{
+	border: 1px solid #ddd;
+	padding: 5px;
+	margin: 10px 0;
+}
+.post:hover{
+	background-color: #f1f1f1;
+}
+.btn-custom{
+	background-color:bisque;
+}
+#post img{
+	max-height: 380px;
+	max-width: 100%;
+}
+.searched {
+	padding: 6px;
+	border: 1px solid #999 !important;
+	border-radius: 30px;
+	padding-left: 15px;
+}
+
+/*---------------- admin area  -------------------------*/
+#main-header{
+	background-color: #000;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+#sidebar{
+	min-height: 100vh;
+}
+#dashContent {
+    margin-top: 40px;
+}
+#sidenav{
+	padding-left: 15px;
+	margin-top: 50px;
+}
+#sidenav a{
+	color: #aaa;
+}
+#sidenav .active a, .nav-link a:hover{
+	color: #fff !important;
+}
+#sidenav .nav-link{
+	width: 100%;
+}
+#new-items{
+	display: none;
+}
+#new-items.show{
+	display: block;
+}
+.panel{
+	padding: 20px 20px 0px 20px;
+	border: 1px solid #999;
+}
+.colum{
+	box-shadow: 0 2px 5px 0px #999;
+}

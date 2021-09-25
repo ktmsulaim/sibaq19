@@ -1,0 +1,199 @@
+body.results{
+	background: url(2.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+body.latestgrp{
+	background: url(3.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+body.live{
+	background: url(clock.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+header{
+	background: #fff;
+}
+/*
+ul.result{
+	position: relative;
+	width: 100%;
+	height: calc(100vh - 149.5px);
+}
+ul.result li{
+	position: absolute;
+}
+.imgHolder{
+	height: 150px;
+	overflow: hidden;
+}
+.card{
+	width: 250px;
+}
+.card-footer{
+	padding: 5px 0;
+}
+.owl-carousel .owl-item img {
+
+    transform: scale(0.6);
+    display: flex;
+    top: -44px;
+    position: absolute;
+
+}
+.position {
+
+    position: absolute;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin: 25px auto;
+    background: #f34c4d;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 0 13px -5px #555;
+    top: 74px;
+    right: 28px;
+
+}
+.grade{
+	
+}
+.ritem1 {
+
+    left: 50%;
+
+}
+.ritem2 {
+
+    left: 25%;
+	top: 40px;
+}
+.ritem3 {
+
+    left: 75%;
+	top: 40px;
+}
+.ritem4{
+	left: 0;
+	top: 200px;
+}
+.ritem5{
+	left: 0;
+	top: 200px;
+}
+.ritem6{
+	
+}*/
+
+.imgCircle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff;
+	position: relative;
+}
+ul.result li{
+	margin: 8px 0;
+}
+.part1{
+	border-radius: 50%;
+	position: relative;
+	left: 68px;
+	box-shadow: 0 0 12px -5px #999;
+	background: #fff;
+}
+.part2{
+	width: calc(100% - 150px) ;
+	background: #fff;
+	padding: 10px;
+	height: 150px;
+	background: rgba(255,255,255,0.85);
+	padding: 10px 10px 10px 85px;
+}
+p{
+	margin-bottom: 0 !important;
+}
+.chest {
+    font-size: 18px;
+    font-weight: bold;
+}
+.name{
+	font-family: 'Raleway', sans-serif;
+}
+.pos{
+	padding: 5px 10px;
+	border-radius: 35px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+.ritem1 .pos{
+	background: #f34c4de6;
+}
+.ritem2 .pos{
+	background: green;
+}
+.ritem3 .pos{
+	background:  #e6a407;
+}
+.ritem4 .pos, .ritem5 .pos, .ritem6 .pos, .ritem7 .pos, .ritem8 .pos{
+	background: #666;
+}
+.grd {
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.25);
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+}
+.ug{
+	padding: 8px 0;
+	font-family: 'Roboto slab',sans-serif;
+}
+.ugImage{
+	position: absolute;
+	transform: scale(1.5);
+	top: 22px;
+}
+
+.contact-card{
+	border-radius: 12px;
+	background: #fff;
+	box-shadow: 0 0 20px -8px #999;
+	overflow: hidden;
+}
+
+.card-photo {
+    overflow: hidden;
+    position: relative;
+    height: 277px;
+}
+
+.card-photo img {
+    position: absolute;
+    width: 200px;
+    display: block;
+    transform: translateY(-50%);
+    top: 50%;
+    height: 277px;
+}
+.topperhead {
+    width: 41px;
+    word-break: break-all;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    font-family: Raleway;
+    background: #f34c4d;
+    color: #ffff;
+    left: 10px;
+}
